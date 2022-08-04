@@ -1,3 +1,4 @@
+/*Урок 2 */
 /**задание 1 */
 /*let title = "project";
 console.log(title);
@@ -12,7 +13,6 @@ const fullPrice = 1234567876543;
 console.log(fullPrice);
 const adaptive = true;
 console.log(adaptive);*/
-
 
 /*задание 2 */
 //1
