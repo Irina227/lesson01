@@ -1,42 +1,46 @@
 'use strict';
 
-// function getMessage() {
-//   alert("Hello world!");
-// }
-// getMessage();
+/*УРОК 4*/
 
-// function cleanHands(){
-//   function dirtyHands(){
-//     console.log('Испачкать руки');
-//   }
-//   function goToTheBathroom(){
-//     console.log('Пойти в ванную комнату');
-//   }
-//   function cleanHands(){
-//     console.log('Помыть руки');
-//   }
-//   dirtyHands()
-//   goToTheBathroom()
-//   cleanHands()
-// }
-// cleanHands()
+//1
+/*let screenPrice = +prompt('Сколько будет стоить данная работа?','50000');
+let servicePrice1 = +prompt('Сколько это будет стоять?');
+let servicePrice2 = +prompt('Сколько это будет стоять?');
 
-// let res //объявили переменную
-
-// const countSum = function(a,b) { //объявили функцию
-//     res = a + b
-// }
-// countSum(3,5) //вызов функции
-// console.log(res) //вывод в консоль
-
-// const money = 5000;
-// const expenses1 = 200;
-// const expenses2 = 300;
-
-// const countTotal = function () {
-//   return money - expenses1 - expenses2;
-// };
-// console.log(countTotal());
+const countSum = function(screenPrice, servicePrice1, servicePrice2){
+    let allServicePrices = screenPrice + servicePrice1 + servicePrice2
+    console.log(allServicePrices);
+}
+countSum(screenPrice, servicePrice1, servicePrice2)*/
 
 
-/*Задание 4*/
+//2
+/*let screenPrice = +prompt('Сколько будет стоить данная работа?','50000');  
+let allServicePrices = 75000;
+
+const getFullPrice = function(screenPrice, allServicePrices){
+    let fullPrice = screenPrice + allServicePrices
+    console.log(fullPrice)
+}
+getFullPrice(screenPrice, allServicePrices)*/
+
+//3
+/*let title = prompt('Как называется Ваш проект?');
+
+const getTitle = function(title){
+    if (!title) return title;
+    console.log(title[0].toUpperCase() + title.slice(1));
+}
+getTitle(title)*/
+
+//4
+/*let screenPrice = +prompt('Сколько будет стоить данная работа?','50000');
+let servicePrice1 = +prompt('Сколько это будет стоять?');
+let servicePrice2 = +prompt('Сколько это будет стоять?');
+let fullPrice = Number(screenPrice) + Number(servicePrice1) + Number(servicePrice2);
+let price = 50;
+const getServicePercentPrices = function (fullPrice, price){
+    let servicePercentPrice = fullPrice / 100 * price
+    console.log(servicePercentPrice)
+}
+getServicePercentPrices(fullPrice, price)*/
